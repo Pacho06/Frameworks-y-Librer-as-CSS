@@ -1,0 +1,52 @@
+body{
+	background-color: rgb(33, 91, 158);
+}
+
+/* Clase para darle estilos al logo */
+.logo-img {
+	height: 130px;
+}
+
+/* Clase para darle estilos a los Iconos Sociales*/
+.social {
+	border-radius: 10px;
+	padding: 10px;
+}
+
+/*Clase para darle estilos a el contenido*/
+.img-formulario {
+	width: 30px;
+	border-radius: 5px;
+}
+
+/*Dispositivos medianos*/
+@media (max-width: 991px) {
+	.busqueda {
+		display: none;
+	}
+	
+	.contenido {
+		margin: 5px 10px;
+	}
+	
+	.logo-img {
+		margin: 0px 10px;
+		text-align: center;
+	}
+	
+	.redes-sociales {
+		text-align: center;
+	}
+}
+
+/*Dispositivos grandes*/
+@media (min-width: 991px) {	
+	.logo-img {
+		text-align: left;
+	}
+
+	.redes-sociales {
+		text-align: right;
+	}
+	
+}
